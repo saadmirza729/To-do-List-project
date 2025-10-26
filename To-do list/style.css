@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(28, 28, 49);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    border-radius: 15px;
+    width: 320px;
+    margin: 0.40rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    border: none;
+
+}
+
+.add {
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    background-color: rgb(223, 223, 37);
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    width: 50px;
+}
+
+.add:hover {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item_input {
+      
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 315px;
+}
+
+.remove {
+    background: none;
+    outline: none;
+    border: none;
+    color: olive;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.remove_btn {
+    margin-top: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(223, 223, 37);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    transition: all 0.4s;
+    height: 55px;
+    width: 150px ;
+    cursor: pointer;
+}
+
+.remove_btn:hover {
+    background-color: black;
+    color: white;
+}
